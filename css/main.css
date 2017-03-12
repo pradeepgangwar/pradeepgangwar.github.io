@@ -1,0 +1,63 @@
+.me_img{
+	text-align : center;
+	margin-top : 50px;
+	margin-bottom: 0px;
+}
+
+.me_intro{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 5px;
+	color: white;
+}
+
+.me_intro1{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+
+.upper-intro{
+	font-size: 26px;
+	text-align: center;
+}
+
+#upper_intro{
+	margin: 0px;
+	font-size: 25px;
+}
+
+
+.icons{
+	text-align : center;
+	color : white;
+	padding-right: 11px;
+	padding-left: 25px;
+}
+
+.icon-intro{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.icon-container{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.span_h5{
+	color: #2196F3;
+}
+
+#bottom_contact{
+	margin-bottom: 0px;
+	font-size: 21px;
+}
+
+#contact{
+	height: 146px;
+}
+
+.footer{
+	text-align: center;
+}
