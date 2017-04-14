@@ -1,6 +1,6 @@
 
 
-.default_color{background-color: #2196F3 !important}
+.default_color{background-color: #23065d !important}
 
 .default_color_text{color: #2196F3 !important}
 
@@ -20,7 +20,7 @@
     min-height: 632px;
     max-height: 864px;
     position: relative;
-    background-color: #2196F3;
+    background-color: #04736e;
 }
 
 #nav_f{
