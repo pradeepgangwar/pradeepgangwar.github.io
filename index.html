@@ -10,9 +10,10 @@
 	<link href="min/plugin-min.css" type="text/css" rel="stylesheet">
 	<link href="min/custom-min.css" type="text/css" rel="stylesheet" >
 	<link href="css/main.css" type="text/css" rel="stylesheet" >
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="css/style.css" type="text/css" rel="stylesheet" >
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-	<link href="http://fonts.googleapis.com/icon?family=material+icons">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
 </head>
 
@@ -26,15 +27,17 @@
 			<a href="" id="logo-container" class="brand-logo"> Pradeep </a>
 				<ul class="right hide-on-med-and-down">
 					<li><a href="#intro"> About </a></li>
+					<li><a href="#skill"> Skills </a></li>
 					<li><a href="#work"> Work </a></li>
 					<li><a href="http://greedforcode.blogspot.com" target="_blank"> Blog </a></li>
-					<li><a href="#contact"> Contact </a></li>
+					<li><a href="#contact32"> Contact </a></li>
 				</ul>
 				<ul id="nav-mobile" class="side-nav">
 					<li><a href="#intro"> About </a></li>
 					<li><a href="#work"> Work </a></li>
+					<li><a href="#skill"> Skills </a></li>
 					<li><a href="http://greedforcode.blogspot.com" target="_blank"> Blog </a></li>
-					<li><a href="#contact"> Contact </a></li>
+					<li><a href="#contact32"> Contact </a></li>
 				</ul>
 			<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
 			</div>
@@ -73,6 +76,23 @@
 	</div>
 </div>
 
+<hr class="breaker">
+
+<div class="row ection scrollspy" style="margin-bottom: 0; background-color: rgb(251, 252, 252)" id="skill">
+	<h2 class="header text_b center-align" style="margin-top: 0; padding-top: 60px;padding-bottom: 10px;">Skills &amp; Experience </h2>
+	<div class="col s12 m4 l4 scrollspy progress" id="progress" style="padding: 0; background-color: rgb(251, 252, 252);"> </div>
+	<div class="col s12 m4 l4 scrollspy progress" id="progress1" style="padding: 0;background-color: rgb(251, 252, 252);"> </div>
+	<div class="col s12 m4 l4 scrollspy progress" id="progress2" style="padding: 0;background-color: rgb(251, 252, 252);"> </div>
+	<div class="col s12 m4 l4 scrollspy progress" id="progress3" style="padding: 0; background-color: rgb(251, 252, 252);"> </div>
+	<div class="col s12 m4 l4 scrollspy progress" id="progress4" style="padding: 0;background-color: rgb(251, 252, 252);"> </div>
+	<div class="col s12 m4 l4 scrollspy progress" id="progress5" style="padding: 0;background-color: rgb(251, 252, 252);"> </div>
+	<div class="col s12 m4 l4 scrollspy progress" id="progress6" style="padding: 0;background-color: rgb(251, 252, 252);"> </div>
+	<div class="col s12 m4 l4 scrollspy progress" id="progress7" style="padding: 0;background-color: rgb(251, 252, 252);"> </div>
+	<div class="col s12 m4 l4 scrollspy progress" id="progress8" style="padding: 0;background-color: rgb(251, 252, 252);"> </div>
+</div>
+
+<hr class="breaker">
+
   <!-- Modal Structure -->
   <div id="modal1" class="modal">
 	<div class="modal-content">
@@ -89,7 +109,7 @@
 <div class="section scrollspy" id="work">
 	<div class="container">
 	<h2 class="header text_b">Work </h2>
-	<h5 class="pwork1"> Major </h5>
+	<br>
 		<div class="row">
 			<div class="col s12 m4 l4">
 				<div class="card hoverable">
@@ -102,7 +122,7 @@
 					</div>
 					<div class="card-reveal">
 						<span class="card-title grey-text text-darken-4"><b>Wallet Manager</b> <i class="mdi-navigation-close right"></i></span>
-						<p> Wallet manager is a simple application for managing your day to day wallet transactions. So that you keep track of your money being spend. <br>With Wallet manager you can keep month-wise track of your money. Wallet manager keeps you organized with your wallet.<br><br> <b> Technologies used are :</b> FLASK (Python framework), Postgresql (Database), Heroku (Hosting), HTML (Ninja Templates by Flask)<br><br> <a href="https://github.com/pradeepgangwar/Wallet-Manager" target="_blank"> GitHub link</a> </p>
+						<p> Wallet manager is a simple application for managing your day to day wallet transactions. So that you keep track of your money being spend. <br>With Wallet manager you can keep month-wise track of your money. Wallet manager keeps you organized with your wallet.<br><br> <b> Technologies used are :</b> FLASK (Python framework), Postgresql (Database), Heroku (Hosting), HTML (Jinja Templates by Flask)<br><br> <a href="https://github.com/pradeepgangwar/Wallet-Manager" target="_blank"> GitHub link</a> </p>
 					</div>
 				</div>
 			</div>
@@ -202,6 +222,50 @@
 
 </div>
 
+<hr class="breaker">
+
+<div class="row ection scrollspy" style="margin-bottom: 0; background-color: rgb(242, 242, 242); padding-bottom: 40px;" id="contact32" >
+	<h2 class="header text_b center-align" style="margin-top: 0; padding-top: 60px;padding-bottom: 10px;">Contact Me</h2>
+	
+    	
+  <div class="row">
+    <form class="col s12" method="POST"	action="http://pradeep39.pythonanywhere.com/email">
+      <div class="row">
+        <div class="input-field col s6 offset-s3">
+          <i class="material-icons prefix">email</i>
+          <input id="icon_prefix" type="text" class="validate" name="from" required>
+          <label for="icon_prefix">E-Mail</label>
+        </div>
+       </div>
+       <div class="row">
+        <div class="input-field col s6 offset-s3">
+          <i class="material-icons prefix">subject</i>
+          <input id="icon_telephone" type="tel" class="validate" name="subject" required>
+          <label for="icon_telephone">Subject</label>
+        </div>
+       </div>
+        <div class="row">
+        <div class="input-field col s6 offset-s3">
+          <i class="material-icons prefix">mode_edit</i>
+          <textarea id="icon_prefix2" class="materialize-textarea" name="body" required></textarea>
+          <label for="icon_prefix2">Body</label>
+        </div>
+      </div>     	 	
+      </div>
+      <div class="row">
+      <div class="center-align">
+      <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+	    <i class="material-icons right">send</i>
+	  </button>
+	  </div>
+	  </div>
+
+    </form>
+  </div>
+       	
+ </div>
+
+
 <!--Footer-->
 <footer id="contact" class="page-footer default_color scrollspy">
 	<div class="container">  
@@ -223,6 +287,7 @@
 	<script src="min/plugin-min.js"></script>
 	<script src="min/custom-min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+	<script src="min/progressbar.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 
 	</body>

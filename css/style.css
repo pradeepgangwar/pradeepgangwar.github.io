@@ -263,3 +263,73 @@ nav a.button-collapse {
 footer.page-footer {
     margin-top: 0px !important;
 }
+#progress {
+  margin: 30px 35px 40px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+#progress1 {
+  margin: 30px 30px 40px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+#progress2 {
+  margin: 30px 30px 40px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+#progress3 {
+  margin: 30px 30px 40px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+
+#progress4 {
+  margin: 30px 30px 40px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+
+#progress5 {
+  margin: 30px 20px 40px 170px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+#progress6 {
+  margin: 30px 30px 40px 40px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+#progress7 {
+  margin: 30px 30px 40px 40px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+#progress8 {
+  margin: 30px 30px 40px 40px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+
+
+.breaker{
+    margin: 0px;
+}
