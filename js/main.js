@@ -1,6 +1,11 @@
 $(document).ready(function(){
 	 
 		$('.scrollspy').scrollSpy();
+		$('.button-collapse').sideNav();
+  		$('.button-collapse').click(removeOverlay);
+  		function removeOverlay() {
+		  $('div[id^=sidenav-overlay]').remove();
+		}
 		var options = [
 			{selector: '#nav_f', offset: 500, callback: function(el) {
 				Materialize.fadeInImage($(el));
