@@ -301,33 +301,39 @@ footer.page-footer {
 
 
 #progress5 {
-  margin: 30px 20px 40px 12%;
+  margin: 30px 35px 40px;
   width: 200px;
   height: 200px;
   position: relative;
 }
 
 #progress6 {
-  margin: 30px 30px 40px 40px;
+  margin: 30px 30px 40px;
   width: 200px;
   height: 200px;
   position: relative;
 }
 
 #progress7 {
-  margin: 30px 30px 40px 40px;
+  margin: 30px 30px 40px;
   width: 200px;
   height: 200px;
   position: relative;
 }
 
 #progress8 {
-  margin: 30px 30px 40px 40px;
+  margin: 30px 30px 40px;
   width: 200px;
   height: 200px;
   position: relative;
 }
 
+#progress9 {
+  margin: 30px 30px 40px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
 
 
 .breaker{

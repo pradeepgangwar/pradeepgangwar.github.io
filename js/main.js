@@ -372,6 +372,45 @@ $(document).ready(function(){
 
 				bar8.animate(0.4);  // Number from 0.0 to 1.0
 			}},
+			{selector: '#progress9', offset: 200, callback: function(el) {
+				var bar9=  new ProgressBar.Circle(progress9, {
+				color: '#927070',
+				// This has to be the same size as the maximum width to
+				// prevent clipping
+				strokeWidth: 4,
+				trailWidth: 1,
+				easing: 'easeInOut',
+				duration: 1400,
+				text: {
+					autoStyleContainer: false
+				},
+				from: { color: '#927070', width: 1 },
+				to: { color: '#000000 ', width: 3 },
+				// Set default step function for all animate calls
+				step: function(state, circle) {
+				circle.path.setAttribute('stroke', state.color);
+				circle.path.setAttribute('stroke-width', state.width);
+
+				var value = Math.round(circle.value() * 100);
+				if (value === 0) {
+					circle.setText('');
+				} else {
+					circle.setText('PHP');
+						$( "#progress9" ).mouseenter(function() {
+					  	circle.setText(value + '%');bar9.text.style.fontSize = '4rem';circle.path.setAttribute('stroke-width', 4);
+					}).mouseleave(function() {
+					  	circle.setText('PHP');bar9.text.style.fontSize = '2rem';circle.path.setAttribute('stroke-width', 3);
+					});
+				}
+				
+					}
+				});
+				bar9.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
+				bar9.text.style.fontSize = '2rem';
+				bar9.text.style.color = '#FE0CAA';
+
+				bar9.animate(0.68);  // Number from 0.0 to 1.0
+			}},
 
 		];
 		Materialize.scrollFire(options);
