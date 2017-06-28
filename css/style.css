@@ -335,6 +335,10 @@ footer.page-footer {
   position: relative;
 }
 
+#spam{
+  display: none;
+}
+
 
 .breaker{
     margin: 0px;
